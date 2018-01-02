@@ -1,0 +1,27 @@
+{
+  "name": "ionscript/ions-uri",
+  "description": "a component that aids in manipulating and validating \u00bb Uniform Resource Identifiers (URIs)",
+  "license": "GPL-3.0+",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Serge Shportko",
+      "email": "ionscript.inc@gmail.com"
+    }
+  ],
+  "keywords": [
+    "ions",
+    "uri"
+  ],
+  "homepage": "https://github.com/ionscript/ions-uri",
+  "autoload": {
+    "psr-4": {
+      "Ions\\Uri\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.6 || ^7.0"
+  },
+  "autoload-dev": {},
+  "require-dev": {}
+}
